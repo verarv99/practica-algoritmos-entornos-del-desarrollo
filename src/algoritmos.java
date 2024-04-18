@@ -1,5 +1,10 @@
 
 public abstract class algoritmos {
+	/**
+	 * metodo para calcular el metodo fibonacci
+	 * @param n
+	 * @return devuelve un numero entero que es el resultado del metodo fibonacci
+	 */
 	public static int fibonacci(int n) {
 		 
         
@@ -14,6 +19,11 @@ public abstract class algoritmos {
         }
  
 }
+	/**
+	 * metodo para calcular el factorial de un numero
+	 * @param n
+	 * @return devuelve un numero entero que es el resultado del factorial 
+	 */
 	 public static int calcularFactorial(int n) {
 	        if (n == 0) {
 	            return 1;
@@ -21,6 +31,11 @@ public abstract class algoritmos {
 	            return n * calcularFactorial(n - 1);
 	        }
 	    }
+	 /**
+	  * metodo para decir si un numero es primo o no 
+	  * @param numero
+	  * @return devuelve un boolean que te dice verdadero si es primo y false si no lo es
+	  */
 	 public static boolean esPrimo(int numero) {
 	        if (numero <= 1) {
 	            return false;
