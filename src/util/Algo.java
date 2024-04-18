@@ -1,5 +1,7 @@
+package util;
 
-public abstract class algoritmos {
+
+public abstract class Algo {
 	/**
 	 * metodo para calcular el metodo fibonacci
 	 * @param n
